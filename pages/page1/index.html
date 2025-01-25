@@ -7,6 +7,40 @@
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="../../index.html"><button class="button-74">Home</button></a></li>
+                <li><a href=""><button class="button-74">Fundamentals</button></a></li>
+                </button>
+            </ul>
+        </nav>
+    </header>
+    <div class="video">
+        <video autoplay loop muted playsinline>
+            <source src="./assets/img/mylivewallpapers-com-Corvette.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <div class="container1">
+        <h1>Name Checker</h1>
+        <form id="nameForm">
+            <label for="nameInput">Enter names (comma separated):</label>
+            <input type="text" id="nameInput"  placeholder="a,e,i,o,u">
+            <button type="submit">Submit</button>
+        </form>
+        <div id="nameOutput"></div> 
+    </div>
     
+    <div class="container2">
+        <h1>Number Checker</h1>
+        <form id="numberForm">
+            <label for="numberInput">Enter a number:</label>
+            <input type="number" id="numberInput" required>
+            <button type="submit">Submit</button>
+        </form>
+        <div id="numberOutput"></div> 
+    </div>
+    <script src="../page1/assets/js/scripts.js"></script>
 </body>
 </html>
