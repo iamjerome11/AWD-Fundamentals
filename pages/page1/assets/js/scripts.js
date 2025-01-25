@@ -32,3 +32,5 @@ document.getElementById('numberForm').addEventListener('submit', function(event)
     output += `The sum of all numbers from 1 to ${userInput} is ${sum}.`;
     document.getElementById('numberOutput').innerHTML = output;
 });
+
+
